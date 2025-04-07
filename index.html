@@ -3,29 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>     p {font-family: Helvetica, sans-serif;}
-    mark { background-color: pink;
-    color:rgb(81, 170, 218);
-    }
-    </style>
+    <title>Niedźwiadki</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1><style>.center{ text-align: center };</style> <p class="center"> Niedźwiedź to nie miś</p></h1>
-    <p class="center">czyli o niedźwiadkach żyjących w górach.</p>
-    <br>
-    <br>
-    <br>
-    <br> 
-    <p class="center"><img class="center" src="pobrane.jpg" alt="Niedzwiadek Tatry" width="500" height="300"></p>
-    <p>Niedźwiedź jest największym drapieżnikiem lądowym, a maksymalny ciężar karpackich osobników przekracza <b>350 kg</b>
-        Pomimo krępej, niezgrabnej budowy ciała potrafi szybko biegać, skakać, pływać i wspinać się na drzewa i skały. 
-        W galopie na krótkich dystansach osiąga prędkość ponad <b>50 km/godz!</b></p>
-        <p>Jego siła jest przysłowiowa. Ma znakomity <strong>węch i słuch</strong>, a nieco słabszy <strong>wzrok</strong>, dlatego rejestrowane przez 
-            niego otoczenie dosyć wyraźnie różni się od obrazu człowieka, typowego wzrokowca. Taka wrażliwość zmysłów jest znakomitym 
-            przystosowaniem do życia w lesie środowisku o ograniczonej widoczności. Węch informuje niedźwiedzia o zakopanych w lawinie kozicach, ale także 
-            o papierkach po cukierkach pozostawionych kilka godzin wcześniej na szlaku.<br><br> Niedźwiedź potrzebuje do życia dużych przestrzeni. Areał osobniczy 
-            dorosłej sztuki obejmuje <em>od 30 do 200 km kw.</em><p>W naszej części Karpat wydzielono pięć ostoi niedźwiedzia: <mark>Beskid Żywiecki, Tatry, Beskid Sądecki 
-                z Gorcami, Beskid Niski i Bieszczady</mark>. </p><br> Aby dowiedzieć się więcej, zajrzyj na stronę, z której pochodzą informacje: <br> <p class="center"><a href="https://archiwum.tpn.pl/poznaj/zwierzeta/niedzwiedz-to-nie-mis">Boogie woogie</a></p>
+    <header>
+        <div class="logo">
+            <img src="misiak.jpg" alt="logo" width="75" height="75">
+        </div>
+        <img src="malpa.jpg" alt="MENU" class="malpa">
+
+        <h1 class="tytul"> Niedźwiedź to nie miś</h1>
+        <p>czyli o niedźwiadkach żyjących w górach.</p>
+    
+        <nav class="nav-links">
+            <a href="#art1">link 1</a>
+            <a href="#art2">link 2</a>
+            <a href="#art3">link 3</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="articles">
+            <!--artykul 1-->
+            <article id="art1">
+                <h2>Niedźwiedź jako drapieżnik</h2>
+                <p>Niedźwiedź jest największym drapieżnikiem lądowym, a maksymalny ciężar karpackich osobników przekracza <b>350 kg</b></p>
+            </article>
+
+            <!--artykul 2-->
+            <article id="art2">
+                <h2>Przystosowania do życia w górach</h2>
+                <p>Pomimo krępej, niezgrabnej budowy ciała potrafi szybko biegać, skakać, pływać i wspinać się na drzewa i skały. 
+                W galopie na krótkich dystansach osiąga prędkość ponad <b>50 km/h!</b>. Jego siła jest przysłowiowa. Ma znakomity <strong>węch i słuch</strong>, 
+                a nieco słabszy <strong>wzrok</strong>, dlatego rejestrowane przez niego otoczenie dosyć wyraźnie różni się od obrazu człowieka, typowego wzrokowca. 
+                Taka wrażliwość zmysłów jest znakomitym przystosowaniem do życia w lesie środowisku o ograniczonej widoczności. Węch informuje niedźwiedzia 
+                o zakopanych w lawinie kozicach, ale także o papierkach po cukierkach pozostawionych kilka godzin wcześniej na szlaku.</p>
+            </article>
+        <!--artykul 3-->
+            <article id="art3">
+                <h2>Gdzie spotkasz niedzwiedzia</h2>
+                <p>Niedźwiedź potrzebuje do życia dużych przestrzeni. Areał osobniczy dorosłej sztuki obejmuje 
+                    <em>od 30 do 200 km<sup>2</sup>.</em> W naszej części Karpat wydzielono pięć ostoi niedźwiedzia: 
+                    <mark>Beskid Żywiecki, Tatry, Beskid Sądecki z Gorcami, Beskid Niski i Bieszczady</mark>.</p>
+            </article>
+
+        </div>
+        <div class="'image">            
+            <img src="pobrane.jpg" alt="Niedzwiadek Tatry" width="500" height="300">
+        </div>
+    </main>
+        
+    <footer>
+        <p>Skontaktuj się z nami: <a href="mailto:adres@email.com">Wyślij e-mail</a></p>
+        <p>Odwiedź stronę źródłową: <a href="https://archiwum.tpn.pl/poznaj/zwierzeta/niedzwiedz-to-nie-mis">TPN- niedżwiedź to nie miś</a></p>
+        <p>Kliknij, aby sprawdzić zdjęcie: <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXRkCsP1HmqzaLv1gSPlHLudstHlXfBHpQJA&s"><img src="misiu.jpg" alt="Kliknij, aby zobaczyć" width = 200></a> </p>
+
+    </footer>    
+     
 </body>
 </html>
